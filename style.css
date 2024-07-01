@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header hr {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #fff;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+/* Main layout */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+article {
+    flex: 1;
+    margin: 0 20px;
+}
+
+/* Left section styles */
+#mainLeft {
+    flex: 1;
+}
+
+#mainLeft h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#mainLeft p, #mainLeft a {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Right section styles */
+#mainRight {
+    flex: 2;
+}
+
+#mainRight h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#mainRight p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+#mainRight h3 {
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: #3498db;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+i.fa, i.fab {
+    margin-right: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    article {
+        margin: 10px 0;
+    }
+}
